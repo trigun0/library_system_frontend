@@ -234,7 +234,7 @@ function Authors() {
               onClick={() => setShowTable(false)}
               className="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded-md text-sm font-semibold transition"
             >
-              Close ✖
+              hide ✖
             </button>
           )}
           {!showTable && (
@@ -272,7 +272,7 @@ function Authors() {
                       className="border-t border-gray-800 hover:bg-gray-800/60 transition duration-200"
                     >
                       <td className="px-6 py-3 text-gray-400">{index + 1}</td>
-                      <td className="px-6 py-3 font-medium text-blue-300">
+                       <td className="px-6 py-3 font-medium text-blue-300">
                         {author.name}
                       </td>
                       <td className="px-6 py-3 text-gray-300">
